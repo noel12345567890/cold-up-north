@@ -1,0 +1,47 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-color: #000; /* pitch black */
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.logo-area {
+    border: 3px solid #5da3ff; /* icy blue border */
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 400px;
+    background: linear-gradient(145deg, #001020, #0a2a6d);
+    box-shadow: 0 0 15px #5da3ffaa;
+}
+
+.band-logo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 0 5px #5da3ff);
+}
+
+.band-name {
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    color: #5da3ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 0 8px #5da3ffaa;
+}
